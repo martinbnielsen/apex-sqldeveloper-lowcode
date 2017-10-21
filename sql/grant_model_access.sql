@@ -5,3 +5,4 @@ grant select on datamodel.dmrs_domain_avt to lowcode;
 grant select on datamodel.dmrs_diagrams to lowcode;
 grant select on datamodel.dmrs_processes to lowcode;
 grant select on datamodel.dmrs_large_text to lowcode;
+grant select on datamodel.dmrs_entities to lowcode;

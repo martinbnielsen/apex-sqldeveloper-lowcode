@@ -48,10 +48,10 @@ select * from datamodel.dmrs_large_text where object_id = 'C60C4646-8AAD-D590-9E
 
 -- Entities
 select d.design_name, date_published, published_by, e.entity_name, t.text entity_comments
-from dmrs_designs d
-join DMRS_ENTITIES e on E.DESIGN_OVID = D.DESIGN_OVID
+from datamodel.dmrs_designs d
+join datamodel.DMRS_ENTITIES e on E.DESIGN_OVID = D.DESIGN_OVID
 left join datamodel.dmrs_large_text t on T.DESIGN_OVID = d.design_ovid and t.object_id = e.object_id and t.ovid = e.ovid and t.type = 'Comments'
-where d.date_published = (select max(d2.date_published) from dmrs_designs d2 where d2.design_id = d.design_id);
+where d.date_published = (select max(d2.date_published) from datamodel.dmrs_designs d2 where d2.design_id = d.design_id);
 
 
 

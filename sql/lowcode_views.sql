@@ -17,7 +17,7 @@ where d.date_published = (select max(d2.date_published) from datamodel.dmrs_desi
 
 -- Entities
 create or replace view lc_entities as
-select d.design_name, date_published, published_by, e.entity_name, t.text entity_comments
+select d.design_name, date_published, published_by, e.entity_name, t.text
 from datamodel.dmrs_designs d
 join datamodel.DMRS_ENTITIES e on E.DESIGN_OVID = D.DESIGN_OVID
 left join datamodel.dmrs_large_text t on T.DESIGN_OVID = d.design_ovid and t.object_id = e.object_id and t.ovid = e.ovid and t.type = 'Comments'
