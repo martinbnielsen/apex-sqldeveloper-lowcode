@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dealer_customers" directorySegmentName="seg_0" id="23573DA0-A0A4-39E0-2B9D-823BB9BEB414">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-12 15:44:01 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A7C696D3-A4B0-9DDE-5118-20F90D5DA800</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B86C417-213B-4D3E-4284-EFE3F6D8D4B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

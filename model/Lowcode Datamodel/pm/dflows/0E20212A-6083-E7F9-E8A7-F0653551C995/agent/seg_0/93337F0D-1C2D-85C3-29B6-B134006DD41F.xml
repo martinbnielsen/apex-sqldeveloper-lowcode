@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ExternalAgent class="oracle.dbtools.crest.model.design.process.ExternalAgent" name="Dealer" directorySegmentName="seg_0" id="93337F0D-1C2D-85C3-29B6-B134006DD41F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 13:01:02 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<fieldSeparator>,</fieldSeparator>
+<fileType>CSV</fileType>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<transfertype>Full Refresh</transfertype>
+<type>3</type>
+</ExternalAgent>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Reporting Scheme datamodel" id="9B59855B-6AD7-B82C-992A-4BB43D15B49E" mainViewID="780247A8-C73D-FEB1-A86C-620F94A43162">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:20 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>demo_orcl_datamodel</connName>
+<connUser>datamodel</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

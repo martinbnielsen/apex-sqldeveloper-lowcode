@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DMRS_PROCESSES" directorySegmentName="seg_0" id="41C1689D-27F6-CCD7-1699-6F841F444C5F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:28 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>073BDD33-4A1A-DC69-A224-6D7FAC975B7E</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRIORITY" id="076DFE62-C59F-054D-2505-4A1A8AAD71D9">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_ID" id="0B4DDDEE-D330-4854-0E4B-74530381EC57">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARENT_PROCESS_ID" id="0B9A9296-C666-D4C0-8337-5F86E4111A13">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_OVID" id="0CA42F63-CE48-85C0-4FC8-E46CB7D0C5A5">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERACTIVE_RESPONSE_TIME_UNIT" id="0F3FAC76-146C-1DD9-E028-39CA9588F821">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_MODE" id="0FCC6586-36C0-2D98-8EB0-D7A9A284B3DE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FREQUENCY_TIME_UNIT" id="141D600C-B862-D2AE-454A-313FFFCC6E7A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_NAME" id="1ABB97C1-3512-BA41-0336-BF60C35946D6">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARENT_PROCESS_OVID" id="259E98AB-B12D-D168-B840-70091F6B676F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_NUMBER" id="41D80446-8C25-4E10-9DB0-44DABDA576CA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSFORMATION_TASK_OVID" id="41E2C7AF-9E31-F763-7233-C7D507F3544A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSFORMATION_TASK_ID" id="4759B5F0-CF0C-28F9-0419-5FEFBCCEF678">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PEAK_PERIODS_STRING" id="8941EC87-FAB7-ECE5-E39A-9066B970F4AF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_TYPE" id="94AA2394-1785-547A-559A-9ED8361E617A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARAMETERS_WRAPPERS_STRING" id="970C61CA-7D6F-C54E-2489-0655F8D55249">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_MIN_TRANSACTIONS" id="99B16DAA-95E3-45BC-34CF-B6D9E9696D6A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARENT_PROCESS_NAME" id="A0B549BE-6B97-D41F-F2AC-71DABB7F84B3">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESIGN_OVID" id="AD5393B0-FD6D-73CE-7B4D-7A80EC6CC2B8">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_NAME" id="C1A5FF6F-6C0F-9C47-B9DD-CF7F696825F7">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FREQUENCY_TIMES" id="E62BD731-BB8A-8901-FB5A-39D8A57273E2">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSFORMATION_TASK_NAME" id="E6A34143-5425-F217-A2B3-865A91A09417">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_OVID" id="EB32CF96-2EF2-4931-1FC2-A978DDF146BB">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_ID" id="EFC0BBD6-97B4-1CA4-6BB7-7FC402A06D27">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_TIME_UNIT" id="F4A47F08-F356-1967-B499-FBFCF4D740A6">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERACTIVE_MAX_RESPONSE_TIME" id="F5C2E7E7-7851-689D-8000-06F041764315">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROCESSES_PK_IDX" id="51CA4534-12CD-FD60-20F0-77A2D9A97C2C">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>AECBBC3B-337A-7F36-1195-79833C599DBC</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROCESSES_FK_DIAGRAM_IDX" id="F43F36DC-ED69-3021-A215-5FD630255A25">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>AECBBC3B-337A-7F36-1195-79833C599DBC</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev12c>

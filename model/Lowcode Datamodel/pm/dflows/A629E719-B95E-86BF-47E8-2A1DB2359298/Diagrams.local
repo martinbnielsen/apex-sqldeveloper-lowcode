@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="577206B1-64BF-E78A-BF2A-8DEBB46A8D57" name="Maintain Dealers Diagram" visible="true"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

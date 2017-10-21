@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6E67935-4E6F-0ABF-D330-F50DB6B15DDD" containerWithKeyObject="A2E07EC0-CE68-51A4-0B3D-71622BB107AB" localFKIndex="F0DC5B57-7E77-50FD-BC3D-3CED973B3E86" name="CUSRTOMER_CARS_CARS_FK">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-12 15:47:37 UTC</createdTime>
+<generatorID>83B9D5CF-2FB4-8BB7-1557-5CC26348C414</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<referredTableLongName>CARS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20A6D46B-0B3F-EEB6-A123-9822C93316F7</referredTableID>
+<keyObject>0A8B8085-7B13-D589-5004-98CC34462CF1</keyObject>
+<referredKeyID>0A8B8085-7B13-D589-5004-98CC34462CF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CARS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

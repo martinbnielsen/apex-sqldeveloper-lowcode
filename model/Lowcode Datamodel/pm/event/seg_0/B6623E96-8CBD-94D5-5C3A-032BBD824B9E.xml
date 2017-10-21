@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Event class="oracle.dbtools.crest.model.design.process.Event" name="Register Car" directorySegmentName="seg_0" id="B6623E96-8CBD-94D5-5C3A-032BBD824B9E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 16:53:18 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<atTime>false</atTime>
+<dayOfMonth>0</dayOfMonth>
+<dayOfWeek>Monday thru Sunday</dayOfWeek>
+<eventType>3</eventType>
+<fiscal>true</fiscal>
+<frequency>0</frequency>
+<hour>0</hour>
+<minute>0</minute>
+<months>All Months</months>
+<onDay>true</onDay>
+<quarter>0</quarter>
+<timeFreq>0</timeFreq>
+<timesWhenRun>1</timesWhenRun>
+<year>0</year>
+</Event>

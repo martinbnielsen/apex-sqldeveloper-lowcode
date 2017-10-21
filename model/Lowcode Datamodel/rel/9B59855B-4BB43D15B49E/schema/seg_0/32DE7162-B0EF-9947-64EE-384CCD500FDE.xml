@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="DATAMODEL" directorySegmentName="seg_0" id="32DE7162-B0EF-9947-64EE-384CCD500FDE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:23 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>C4F50E0B-ABC9-B539-0A3D-85BA3C895D4C</importedID>
+</SchemaObject>

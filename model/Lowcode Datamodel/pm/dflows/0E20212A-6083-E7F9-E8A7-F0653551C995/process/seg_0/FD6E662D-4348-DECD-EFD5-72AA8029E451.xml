@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Customer Relations" directorySegmentName="seg_0" id="FD6E662D-4348-DECD-EFD5-72AA8029E451">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 12:56:44 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<primary>false</primary>
+<type>1</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<diagram>1824983C-E874-6C79-7C92-128C74E18544</diagram>
+<footNote>The salesman maintains a list of customers and contact information. They should also register car purchases.</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

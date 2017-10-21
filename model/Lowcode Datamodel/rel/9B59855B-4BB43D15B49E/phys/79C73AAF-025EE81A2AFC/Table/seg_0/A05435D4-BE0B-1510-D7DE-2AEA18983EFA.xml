@@ -1,0 +1,382 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DMRS_COLUMNS" directorySegmentName="seg_0" id="A05435D4-BE0B-1510-D7DE-2AEA18983EFA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:23 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D97FF332-A973-9DC8-D62C-601059C2F334</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTAINER_OVID" id="051A307E-8E14-2323-B030-FB04762327A8">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHAR_UNITS" id="06D490B4-B7CA-50A9-42D9-598993190805">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESIGN_OVID" id="0AE7CBD1-185D-2983-7D57-76D86842790E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_OVID" id="0C8DE96B-B3BC-5795-4BBB-905286FBF958">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_DISABLE_CACHE" id="1BD1C26E-3F04-0364-E97A-492633A24B01">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SENSITIVE_TYPE_OVID" id="1E17B315-8AEE-23F1-40F0-3BD6661A5F4F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGICAL_TYPE_OVID" id="214FBBF7-606D-69AC-647F-65C9A39296AA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_GENERATE_ALWAYS" id="21EBEAFF-AE3B-A525-A077-B005022D1352">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STRUCTURED_TYPE_OVID" id="2AC3CEEB-1D37-C16E-85EE-96EB72E180DA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDENTITY_COLUMN" id="2C991B5E-F62D-7219-952D-6786A922F296">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTAINS_PII" id="3B4AB294-11D1-9033-0997-98E3E1099C01">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTAINER_ID" id="3DEFD114-F462-D0DD-22C9-13EEEB1637B2">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANDATORY" id="3E91522B-B645-8EE0-C806-DC0D465BFAF3">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_ORDER" id="3F76331B-3F7D-761B-2731-22F39453834A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALUE_TYPE" id="41E7F5FD-19E0-700A-8EC5-561448B3977C">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_MAX_VALUE" id="421130E0-C306-F597-A08E-5E2418BC0202">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USES_DEFAULT" id="43D4D569-E544-5423-1AC9-1DA092C45B1C">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTINCT_TYPE_ID" id="44C4D330-F48A-E396-8675-503BC595AB81">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PK_FLAG" id="4667E8A9-F849-E511-3106-815019411583">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TABLE_NAME" id="476BE179-3D7D-C2DD-C79B-4190803F7E45">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_NAME" id="4B707F8D-2DD4-BE0F-A99C-617AB25E0AC8">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGICAL_TYPE_NAME" id="4DE4781D-A07D-2366-DD7A-CF7B5D107E2D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_TRIGGER_NAME" id="4F635E0F-D93C-28A6-E1B0-C131BE176CF3">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_FLAG" id="55362A7E-31C7-1007-F95C-5067B7825313">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_ID" id="578A6F83-58FF-CD39-955F-6F91C9EB5D94">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLLECTION_TYPE_OVID" id="5A91395A-3828-740C-1849-9E3AAE74E7D9">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_CACHE" id="5AD2083F-1014-4A45-9830-2F8DDF345E42">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTINCT_TYPE_OVID" id="5B07CC46-FE74-240E-3B3B-1F71EA48013B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLLECTION_TYPE_NAME" id="5FA1F633-5859-17B4-9588-B7E86BA3144A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_MIN_VALUE" id="61FB2BDF-F409-316D-DEB4-5A50CC4DAF31">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_PRECISION" id="663E5994-DF26-60BA-D8F1-028AFCA65999">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENGINEER" id="69BA1CB2-B912-B98E-9D14-DE76F3D6D152">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USE_DOMAIN_CONSTRAINT" id="6B39D647-38C6-E54F-6297-02B3C91A1ADE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_SEQUENCE_NAME" id="6B3B6005-6202-D53F-AF81-68762A03F3AB">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOMAIN_NAME" id="6BE5E848-1BE4-0A96-7CBB-BB1124EEA52F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_COLUMN" id="6C560024-5313-5263-7302-826D4E51C4F7">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STRUCTURED_TYPE_ID" id="70553FB4-D1E3-38FD-779F-3D3B42F4A564">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOMAIN_ID" id="70FD0861-6997-22F8-6736-66B8FDA3BB7D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASK_FOR_NONE_PRODUCTION" id="71C307D7-9DF8-E90F-A5EA-1E839ED7AD8B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_SCALE" id="72397356-0F67-BCCF-A7AB-F88D2C69029E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGICAL_TYPE_ID" id="7C8A6CAF-8CED-13BA-056F-5A75BB323D28">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPUTED" id="856EAD78-2C00-F0F3-DAEF-D61CF3CF268F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_SIZE" id="88FE4B22-2D3D-BCFE-1E0E-C93371248A45">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATATYPE_KIND" id="9BDEEBF9-25DF-7215-3CB8-ED882A649071">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_START_WITH" id="9D43E412-73BB-EFB6-0FBF-C702A78C0F7D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OVID" id="9E7F45C8-CF83-4D54-CDAE-75CB14FE4B45">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASK_TYPE" id="A789CF71-9572-1903-EFF6-819E0F142562">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECK_CONSTRAINT_NAME" id="B0B6CA64-7330-E47C-E92B-6DC299D591B8">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASK_TYMPLATE_OVID" id="B402F818-87F5-AE94-ABBD-6C6CBD92D66A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEQUENCE" id="B740DFD5-1DB3-4277-0A84-3A8E8FE6B35B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_CYCLE" id="BC6E951C-6E79-67DC-E906-B4649FFA71AF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCOPEENTITY_ID" id="BFEFE11E-D0D8-12F1-B3DB-ADF8A45C1733">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCOPEENTITY_NAME" id="C27D69C5-2128-1D9E-BB32-2B920CE991B8">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FORMULA" id="C42072FB-5539-7AE5-ECA5-0F4B36BAFBB1">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLLECTION_TYPE_ID" id="C5733065-4F8F-E82B-A5E0-6C112769739D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ABBREVIATION" id="CEFED8E4-32B3-96E0-C4BB-8A49A42A066D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONALLY_ID_INFORMATION" id="D74A0194-F0B0-BD55-985A-23E4B1426D50">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_INCREMENT_INCREMENT_BY" id="D8A22428-825D-590D-89E9-3FBF937B6740">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SENSITIVE_DATA_DESCR" id="D9B4A38B-B087-DDB5-5044-5C56B9174E7E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCOPEENTITY_OVID" id="DCA16784-6AC7-4B22-3CE0-24E1D581B7EF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SENSITIVE_INFORMATION" id="DEB730C3-F645-8460-0C01-B251AF20DB96">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOMAIN_OVID" id="DF7D3FA9-C425-C546-E0B5-C968A8F73432">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN_NAME" id="E2DC45BB-187D-39E3-9CA3-234BC26E1535">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_VALUE" id="E549872B-6206-32F8-1453-E383A9F277D7">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTINCT_TYPE_NAME" id="E5F054F3-C03A-0F06-0164-BF42D3BA3088">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NATIVE_TYPE" id="EB9A212D-CAAA-5871-D167-A3225ADAFA25">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMPORT_ID" id="F64DA071-7F7B-FCF8-9F3A-1066FD6AF1DF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_ID" id="F890A7C9-B5E6-2F2A-6A32-9B90ADF12550">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STRUCTURED_TYPE_NAME" id="FB99DEB7-1CF4-1290-974F-86E71A51DD9A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COLUMNS_FK_IDX" id="58A4DE5A-79E2-95C2-844F-EAC6F0CB9B5F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COLUMNS_PK_IDX" id="8F1A47D0-71BC-C4D4-2FB5-9E83C269562A">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev12c>

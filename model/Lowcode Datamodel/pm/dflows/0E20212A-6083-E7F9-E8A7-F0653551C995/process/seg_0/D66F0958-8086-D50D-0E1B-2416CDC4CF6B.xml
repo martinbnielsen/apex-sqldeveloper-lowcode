@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Car Pool" directorySegmentName="seg_0" id="D66F0958-8086-D50D-0E1B-2416CDC4CF6B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 12:57:11 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<primary>false</primary>
+<type>1</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<diagram>9F184D84-DF31-8152-934F-C26EFD4B0799</diagram>
+<footNote>The car pool is the list of cars which are purchased by the dealer and sold to the customers</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

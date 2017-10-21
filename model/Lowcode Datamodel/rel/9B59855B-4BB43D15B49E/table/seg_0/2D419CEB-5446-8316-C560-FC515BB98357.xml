@@ -1,0 +1,551 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D419CEB-5446-8316-C560-FC515BB98357" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DMRS_DIAGRAM_ELEMENTS">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DMRS_DIAGRAM_ELEMENTS</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>38C5B38B-0BCD-DD15-32F0-019873B7CECB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="9F29A0E3-36ED-9D0A-7ACC-3C83968E0D71">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>78A2412E-0C21-8660-6529-7475143C6F7D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONG_NAME" id="34F6C176-4786-A191-A2CD-8B74DDE858D5">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>LONG_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>4F0B617E-552E-518D-35C6-814B79752BA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="853FB0A4-47FF-79AA-AC01-8080535F9BA6">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>9E8B86E6-D160-30BB-048C-4B6977015EAF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GEOMETRY_TYPE" id="05E04091-31C7-2EA5-7FCC-A024E1666CA8">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>GEOMETRY_TYPE</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>0A5A9777-85E4-3410-B677-C7CDA3F830BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_ID" id="0D85961D-7988-E267-DA48-BE8FE21435F2">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>OBJECT_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>F2C26D55-DD3E-0A4A-6A4D-8B4400D1EA5C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OVID" id="059A3F48-4E52-1296-9251-3DA9D44295F5">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>C0D6FFA6-E776-9EBA-0BD5-AAB5F66F4515</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIEW_ID" id="C5F8B111-E7AA-4A93-4F46-5398AFA01D67">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>VIEW_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>E3531924-4F3F-5018-1E6D-833FECFE9EC8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_ID" id="B300D9AC-8D4F-496D-E0B8-3094C170DF56">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>SOURCE_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>B1835A07-8019-4225-6D8A-6D2C91C7ADA3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_OVID" id="117953E9-E17E-A1DB-7450-8E0188A3D370">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>SOURCE_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>021F8188-41F0-D045-0D88-9150C8860DC7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_VIEW_ID" id="41D2D953-E453-4AB0-6D9C-695524973E39">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>SOURCE_VIEW_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>7202E79A-0934-FEF2-E809-8C6B092391E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_ID" id="847BEC50-E4F5-97BA-5AD6-B1BD0300B22E">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>TARGET_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>D4481CE8-8810-EFAB-F011-FA02CF04A5BA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_OVID" id="7AB8F987-B471-B443-384E-F42E2F7D7BDD">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>TARGET_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>12DD4EA5-3693-E93B-FA27-6A7457EF5EBC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_VIEW_ID" id="492D65B5-ABC7-4857-F4D4-79F8D68CFBD2">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>TARGET_VIEW_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>C33D364C-2C8A-E6D2-3683-39CC31BCA4E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL_ID" id="1300FDB8-27D3-7A43-1E28-8BC53219CF8B">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>MODEL_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>9AF03F83-4B77-AB8D-2E19-0B33BC6B1664</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL_OVID" id="AE8D51F6-72C8-0C08-089A-A6FBC6BCC004">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>MODEL_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>530A394D-7DE5-6BE2-0654-D609A72C8147</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_X" id="B9713AF8-6ED0-34B3-7C2B-C896350E4028">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>LOCATION_X</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>4FA277D6-EC29-38F8-A3A6-DB3F0B424DA2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_Y" id="7296E768-FF00-4AD8-0F9A-452802869512">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>LOCATION_Y</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>618088F7-5516-0F60-C9D1-99D74DC7D71A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEIGHT" id="D6E41F1A-A065-E615-FB29-1AD39511180B">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>HEIGHT</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>0DF62902-8120-49C6-9F2A-20C66D3E8D0A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WIDTH" id="1BE812DE-E672-C766-AB9C-D1C669A3C12D">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>WIDTH</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>5A2C5B66-C410-FCA6-EF9C-445602E91E49</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BG_COLOR" id="A513E1EA-3A44-B950-9A29-AAA9888AE8A1">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>BG_COLOR</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>3864E5A4-0A8F-BC5B-8AB5-FC7AF9027522</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FG_COLOR" id="CDC0CF80-E92B-8212-B771-E7043DE1AA6E">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>FG_COLOR</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>E362AA29-6287-12A1-0BA0-69B78F246E09</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USE_DEFAULT_COLOR" id="E2DAB455-0531-063C-76B4-A7132B751E08">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>USE_DEFAULT_COLOR</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>EF853964-1BA5-96BE-1E26-8ECC209325C4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORMATTING" id="7EABBB56-8681-7602-68BF-1FF5239198B3">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>FORMATTING</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>91644F20-3D06-AE0C-21A8-99FD1EA3A3CD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POINTS" id="1AC733F9-212C-77F1-9937-7ABDC140EA75">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>POINTS</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>630E9558-AF6B-56DF-4145-A025ADBE32DD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGRAM_OVID" id="CC8503F9-134F-8BE8-1B65-8A2DBAC31674">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>DIAGRAM_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>E31557BD-5FB0-EFCC-636C-361968C95739</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGRAM_ID" id="91C4B544-E6E5-C831-0CD6-45C31B3918FE">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>DIAGRAM_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>57FF14C6-FCA7-2156-585A-2B4F22696A71</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGRAM_NAME" id="1A7F7421-203F-FE60-C6C3-562325928028">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>DIAGRAM_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>9340FBF1-F1C4-ACF1-5C27-33CB7A74D454</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_NAME" id="8FC4616F-977B-9530-2A3C-378F05D5577B">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>SOURCE_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>40C4685A-423A-2100-908A-5B14A8BB1396</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_NAME" id="B21EE947-6719-2344-7D20-83EFA06F7A49">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>TARGET_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>0B46B8FF-7758-EA86-497D-5EEF39FB239C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL_NAME" id="E6F45825-D0EE-115B-DE9A-A9C5BC85F846">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>MODEL_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>9DF7201A-0E29-77E4-3904-76C18FDE8A9E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_OVID" id="D81FBE77-40C1-B6B9-5CC9-32340EA504E8">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DIAGRAM_ELEMENTS</sourceObjSchema>
+<sourceObjName>DESIGN_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>E629F367-6996-960C-1310-E25195FB4DD3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="866C4780-AA31-07D3-66DC-95F77E2A8798" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DIAGRAM_ELEMENTS_FK_IDX">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DIAGRAM_ELEMENTS_FK_IDX</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>4548F054-59A4-9D58-88BF-D87E953EFA9A</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8503F9-134F-8BE8-1B65-8A2DBAC31674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="353E1A73-863E-34FF-6BEF-496B59DCD6F3" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DIAGRAM_ELEMENTS_NAME_IDX">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DIAGRAM_ELEMENTS_NAME_IDX</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>19A754E1-27E1-CCDA-230C-5216284197FD</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F29A0E3-36ED-9D0A-7ACC-3C83968E0D71"/>
+<colUsage columnID="059A3F48-4E52-1296-9251-3DA9D44295F5"/>
+<colUsage columnID="853FB0A4-47FF-79AA-AC01-8080535F9BA6"/>
+<colUsage columnID="AE8D51F6-72C8-0C08-089A-A6FBC6BCC004"/>
+<colUsage columnID="CC8503F9-134F-8BE8-1B65-8A2DBAC31674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B9329BA-2812-96EC-C1C0-A45312C48834" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DIAGRAM_ELEMENTS_PK_IDX">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DIAGRAM_ELEMENTS_PK_IDX</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<importedID>3CE29D06-4DD0-2F75-9CB1-9699E846D24F</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059A3F48-4E52-1296-9251-3DA9D44295F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

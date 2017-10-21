@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9067F11-6116-BBC2-AF58-8F6F81C64566" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DMRS_DESIGNS">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DMRS_DESIGNS</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:25 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESIGN_ID" id="B81F6674-CC02-2A41-64FA-1745FD5249C5">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>DESIGN_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_OVID" id="52836A3B-9FD4-A34F-D460-1DA4A941D272">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>DESIGN_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_NAME" id="628FD3B8-0019-E39F-6267-2D16BA8744CF">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>DESIGN_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_PUBLISHED" id="E979910E-AC45-5D13-9788-EF6DF424A85F">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>DATE_PUBLISHED</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHED_BY" id="6DD3FD51-29B0-BAD1-66F9-394DA022D74F">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>PUBLISHED_BY</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSISTENCE_VERSION" id="ECC142E2-64FA-31DD-1E5D-AA96406FB9BE">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>PERSISTENCE_VERSION</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERSION_COMMENTS" id="6E215A14-EF57-548C-9A05-85706077FECF">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>VERSION_COMMENTS</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCB2B12C-4BD8-7EE2-D757-3AD0B684FFC6" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DESIGNS_PK_IDX">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DESIGNS_PK_IDX</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52836A3B-9FD4-A34F-D460-1DA4A941D272"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C83560F5-11CF-952B-3575-8CC942F20109" schemaObject="32DE7162-B0EF-9947-64EE-384CCD500FDE" name="DESIGNS__IDX">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DATAMODEL</sourceObjSchema>
+<sourceObjName>DESIGNS__IDX</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81F6674-CC02-2A41-64FA-1745FD5249C5"/>
+<colUsage columnID="52836A3B-9FD4-A34F-D460-1DA4A941D272"/>
+<colUsage columnID="628FD3B8-0019-E39F-6267-2D16BA8744CF"/>
+<colUsage columnID="6E215A14-EF57-548C-9A05-85706077FECF"/>
+<colUsage columnID="E979910E-AC45-5D13-9788-EF6DF424A85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

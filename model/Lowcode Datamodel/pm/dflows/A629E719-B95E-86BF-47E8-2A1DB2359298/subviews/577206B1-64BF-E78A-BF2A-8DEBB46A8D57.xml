@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="Maintain Dealers Diagram" id="577206B1-64BF-E78A-BF2A-8DEBB46A8D57">
+<createdBy>martin</createdBy>
+<modifiedBy>martin</modifiedBy>
+<createdTime>2017-10-19 16:30:35 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="6E0C7D58-D71E-CBA0-C18D-7DEB165A76CE" otype="Process" vid="723B8774-61F2-716A-04BF-1D72E231CF07">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="292" y="145" width="130" height="90"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D" otype="Process" vid="EFE2BE0B-A74C-241B-00AD-D38EA2395BC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="293" y="265" width="165" height="90"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVAgent" oid="93337F0D-1C2D-85C3-29B6-B134006DD41F" otype="ExtAgent" vid="70E62CD9-5B3C-82B5-6B0E-FAF451C112D6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="48" y="357" width="123" height="80"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVAgent" oid="C79103B6-5BF6-C8A2-DFA0-1D18372790B1" otype="ExtAgent" vid="7AA9332B-429F-6378-4778-E0A3DC194CC0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="56" y="153" width="106" height="80"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="D66F0958-8086-D50D-0E1B-2416CDC4CF6B" otype="Process" vid="70E1551D-6776-2F7A-3225-9A187FF6A9CF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="318" y="417" width="328" height="90"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="FD6E662D-4348-DECD-EFD5-72AA8029E451" otype="Process" vid="80C67FCA-E4A6-25E1-DB95-5E1DFC0DBCB1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="584" y="167" width="180" height="90"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="3C87E4DB-AB74-0FF0-DC40-F9BFBD45E170" otype="Flow" vid_source="7AA9332B-429F-6378-4778-E0A3DC194CC0" vid_target="EFE2BE0B-A74C-241B-00AD-D38EA2395BC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="162" y="216"/>
+<point x="293" y="273"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="4E49038F-1BDE-A24F-C207-91F13E4B24FD" otype="Flow" vid_source="80C67FCA-E4A6-25E1-DB95-5E1DFC0DBCB1" vid_target="70E1551D-6776-2F7A-3225-9A187FF6A9CF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="615" y="257"/>
+<point x="615" y="417"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="5AC2200B-B5A4-3A1E-F0DB-4E2C3D538F48" otype="Flow" vid_source="7AA9332B-429F-6378-4778-E0A3DC194CC0" vid_target="723B8774-61F2-716A-04BF-1D72E231CF07">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="162" y="193"/>
+<point x="292" y="193"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="E58D7DD7-B79D-B15A-62E7-2AA5CE0ADFFE" otype="Flow" vid_source="70E62CD9-5B3C-82B5-6B0E-FAF451C112D6" vid_target="70E1551D-6776-2F7A-3225-9A187FF6A9CF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="171" y="427"/>
+<point x="318" y="427"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="FCE17044-5FAB-7590-0794-8E6575689F86" otype="Flow" vid_source="70E62CD9-5B3C-82B5-6B0E-FAF451C112D6" vid_target="EFE2BE0B-A74C-241B-00AD-D38EA2395BC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="171" y="376"/>
+<point x="293" y="336"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

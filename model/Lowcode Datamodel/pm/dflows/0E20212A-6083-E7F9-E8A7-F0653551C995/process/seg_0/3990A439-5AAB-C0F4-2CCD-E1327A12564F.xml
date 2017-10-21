@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Maintain Dealers" directorySegmentName="seg_0" id="3990A439-5AAB-C0F4-2CCD-E1327A12564F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 12:56:05 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<primary>false</primary>
+<type>1</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<diagram>A629E719-B95E-86BF-47E8-2A1DB2359298</diagram>
+<footNote>Dealer information should be maintained when new dealers start up or existing dealers close down.</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

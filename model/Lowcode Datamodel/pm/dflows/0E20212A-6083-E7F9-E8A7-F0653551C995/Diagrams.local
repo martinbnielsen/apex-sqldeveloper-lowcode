@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="D26F4D83-2A30-A084-04CC-59D546EF3F88" name="lowCode Processmodel" visible="true"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

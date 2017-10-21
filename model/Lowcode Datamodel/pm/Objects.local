@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="Event" objectID="B6623E96-8CBD-94D5-5C3A-032BBD824B9E" name="Register Car" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="F75D64ED-4376-A1C0-3F56-1E0A614AF58B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="FB157714-9521-6D14-4DC3-435D055B996A" name="CARS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="F75D64ED-4376-A1C0-3F56-1E0A614AF58B" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

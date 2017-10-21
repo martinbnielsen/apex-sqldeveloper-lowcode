@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="lowCode Processmodel" id="0E20212A-6083-E7F9-E8A7-F0653551C995" mainViewID="D26F4D83-2A30-A084-04CC-59D546EF3F88" topLevel="true">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 12:55:48 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<processOrderString>3990A439-5AAB-C0F4-2CCD-E1327A12564F,FD6E662D-4348-DECD-EFD5-72AA8029E451,D66F0958-8086-D50D-0E1B-2416CDC4CF6B</processOrderString>
+</DataFlowDesign>

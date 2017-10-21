@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Flow_2" directorySegmentName="seg_0" id="FCE17044-5FAB-7590-0794-8E6575689F86">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 16:33:49 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<destination>74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<parentObject>763864A7-0646-A79F-8137-990465978FB3</parentObject>
+<sourceProcessObject>93337F0D-1C2D-85C3-29B6-B134006DD41F</sourceProcessObject>
+<targetProcessObject>74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D</targetProcessObject>
+</Flow>

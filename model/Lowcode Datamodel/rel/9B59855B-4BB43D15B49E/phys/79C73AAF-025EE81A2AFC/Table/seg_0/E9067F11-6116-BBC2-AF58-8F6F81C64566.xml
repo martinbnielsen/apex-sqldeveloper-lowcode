@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DMRS_DESIGNS" directorySegmentName="seg_0" id="E9067F11-6116-BBC2-AF58-8F6F81C64566">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:25 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D97FF332-A973-9DC8-D62C-601059C2F334</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESIGN_OVID" id="52836A3B-9FD4-A34F-D460-1DA4A941D272">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESIGN_NAME" id="628FD3B8-0019-E39F-6267-2D16BA8744CF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHED_BY" id="6DD3FD51-29B0-BAD1-66F9-394DA022D74F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VERSION_COMMENTS" id="6E215A14-EF57-548C-9A05-85706077FECF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESIGN_ID" id="B81F6674-CC02-2A41-64FA-1745FD5249C5">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_PUBLISHED" id="E979910E-AC45-5D13-9788-EF6DF424A85F">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSISTENCE_VERSION" id="ECC142E2-64FA-31DD-1E5D-AA96406FB9BE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DESIGNS_PK_IDX" id="BCB2B12C-4BD8-7EE2-D757-3AD0B684FFC6">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DESIGNS__IDX" id="C83560F5-11CF-952B-3575-8CC942F20109">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>D3E86009-1505-6B38-2CD1-39E9D4D294A7</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev12c>

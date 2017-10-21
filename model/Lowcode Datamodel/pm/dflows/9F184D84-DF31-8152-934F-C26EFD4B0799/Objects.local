@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="65AAF1BD-1D8B-1BC5-D2CF-4745B20F7ECA" name="Register Car" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="9F184D84-DF31-8152-934F-C26EFD4B0799" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

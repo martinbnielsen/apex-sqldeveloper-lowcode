@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DATAMODEL" directorySegmentName="seg_0" id="F8F1F7A5-ED61-2231-D36C-13EAD8FE3CDB">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjName>DATAMODEL</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:20 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D" name="Maintain Dealer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="A629E719-B95E-86BF-47E8-2A1DB2359298" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Process" objectID="6E0C7D58-D71E-CBA0-C18D-7DEB165A76CE" name="New Dealer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="A629E719-B95E-86BF-47E8-2A1DB2359298" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Flow" objectID="5AC2200B-B5A4-3A1E-F0DB-4E2C3D538F48" name="Flow_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Flow" propertyParentId="A629E719-B95E-86BF-47E8-2A1DB2359298" propertySourceId="C79103B6-5BF6-C8A2-DFA0-1D18372790B1" propertyTargetId="6E0C7D58-D71E-CBA0-C18D-7DEB165A76CE"/>
+   <object objectType="Flow" objectID="FCE17044-5FAB-7590-0794-8E6575689F86" name="Flow_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Flow" propertyParentId="A629E719-B95E-86BF-47E8-2A1DB2359298" propertySourceId="93337F0D-1C2D-85C3-29B6-B134006DD41F" propertyTargetId="74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D"/>
+   <object objectType="Flow" objectID="3C87E4DB-AB74-0FF0-DC40-F9BFBD45E170" name="Flow_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Flow" propertyParentId="A629E719-B95E-86BF-47E8-2A1DB2359298" propertySourceId="C79103B6-5BF6-C8A2-DFA0-1D18372790B1" propertyTargetId="74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

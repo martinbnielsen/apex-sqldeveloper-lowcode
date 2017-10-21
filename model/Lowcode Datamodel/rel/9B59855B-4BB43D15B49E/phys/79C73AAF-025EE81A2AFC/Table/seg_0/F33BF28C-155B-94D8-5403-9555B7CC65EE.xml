@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DMRS_DIAGRAMS" directorySegmentName="seg_0" id="F33BF28C-155B-94D8-5403-9555B7CC65EE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D97FF332-A973-9DC8-D62C-601059C2F334</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IS_DISPLAY" id="11DFAF5C-E10E-D425-3E70-704D852A1B18">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBVIEW_ID" id="1A90DDB5-C930-F588-1760-C5763768AB3E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISPLAY_ID" id="1EA0EE97-50F1-0F0E-1260-7C02C3B37AA4">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_SVG" id="2A4760F7-8B24-45BB-827B-952343C72278">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTOROUTE" id="393D91C9-5C99-0A68-3259-8D611EA418BE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISPLAY_OVID" id="46B82547-5882-B775-FC27-0C813ABEE52E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOW_NAMES_ONLY" id="47473EF7-82CD-5B9E-916D-744303192A53">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBVIEW_OVID" id="68E9C70A-615E-A35D-F0CF-D148FBEF63D5">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISPLAY_NAME" id="691FAD2A-265C-CF47-2AB5-8625A7FFE607">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASTER_DIAGRAM_NAME" id="6A23BDE7-1B7C-F8FA-36F2-A9A6353D0558">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_ID" id="728430C9-5A79-5F5E-7FB0-E2AE2114E19D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBVIEW_NAME" id="76779AEC-4202-6803-EA3D-6F8A4C6500FA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOW_KEYS" id="7B30DEBD-84A2-AA71-673E-999B7D70FDA3">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_NAME" id="80C4579F-EC10-F6E1-F0AC-84C5E2635D4B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_OVID" id="819FBCED-951C-E57A-4C17-4DA76B565737">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIBLE" id="82802DEF-DCB4-F61D-3CBF-A81EE152D91C">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASTER_DIAGRAM_OVID" id="87116683-ABA0-D5F3-F8F0-4CBAB0644FFA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_TYPE" id="8D158225-CD68-3A99-C2F5-241DAC4EBC38">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOW_DATATYPE" id="AA508258-D8B3-D298-DE72-356026A6554B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODEL_ID" id="B5C6EBE3-CEDB-6F8B-FAAF-42068151AF82">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOX_IN_BOX" id="B634C52C-E999-E8DF-A194-7BB300635DB6">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_NAME" id="C716D7D2-A024-1751-C405-F3F5DD05E669">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESIGN_OVID" id="D67FE958-C5BA-78EE-580C-369741AF674B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MASTER_DIAGRAM_ID" id="E0A3CDFD-CDD7-EF79-5C6A-FB7EDFDA946E">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OVID" id="E5CA8EBE-75A3-77F3-1A69-6F4C83CFB77D">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOW_ELEMENTS" id="E6213C10-F247-5BCC-3B93-45C7ABE3105B">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTATION" id="F947EF12-F207-A015-3A18-6230CDC9F0E4">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGRAM_PDF" id="FA3B75BB-A085-518F-86DD-483D680DDAA9">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOW_ALL_DETAILS" id="FC88F862-E629-84C4-F45B-BEB36B270FEE">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DIAGRAMS_PK_IDX" id="59BA7B99-6D95-F144-EB1E-3820A3A6B8F1">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DIAGRAMS_NAME_IDX" id="88E1C4C0-388C-4ECC-1D68-F359EA9FD111">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DIAGRAMS_FK_IDX" id="CCBA72C6-FCA7-D3BE-FB63-5AD2CFC4B4FF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:16 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<schemaObject>32DE7162-B0EF-9947-64EE-384CCD500FDE</schemaObject>
+<logging>NO</logging>
+<segment>037B00C7-6078-89E5-C0C4-EE0160896CE1</segment>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+</IndexProxy>
+</indexProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080145C00027$$" id="67821110-607E-0288-C235-E676AAD318FF">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:17 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DIAGRAM_SVG</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080145C00028$$" id="0A9CCCEC-ED4C-28A2-D71C-B8A748E65B2C">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:56:17 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DIAGRAM_PDF</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>908DAFD9-8D8E-3914-5987-682983523443</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+</TableProxyOraclev12c>

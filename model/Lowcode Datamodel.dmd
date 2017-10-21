@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Lowcode Datamodel" id="789013FB-1E49-CAE7-92F2-DF1148308AEC" version="3.5">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-12 15:41:37 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>789013FB-1E49-CAE7-92F2-DF1148308AEC</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="56C4BCBA-A1BA-8E03-DBAA-1F7360FDC8C4">
+<designStoragePath>/Users/martin/DevAPEX/apex-sqldeveloper-lowcode/model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5CC917C6-E2F8-287E-7F11-6FB066407DEB" mainViewID="C6393F18-3ECA-CEF6-E456-1A2A6731B075">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-12 15:41:37 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

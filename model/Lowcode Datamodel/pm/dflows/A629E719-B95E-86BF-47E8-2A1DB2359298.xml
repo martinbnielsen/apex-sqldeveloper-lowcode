@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="Maintain Dealers Diagram" id="A629E719-B95E-86BF-47E8-2A1DB2359298" mainViewID="577206B1-64BF-E78A-BF2A-8DEBB46A8D57" topLevel="false" parentDFD_ID="0E20212A-6083-E7F9-E8A7-F0653551C995">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-19 16:30:35 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>3990A439-5AAB-C0F4-2CCD-E1327A12564F</process>
+<processOrderString>6E0C7D58-D71E-CBA0-C18D-7DEB165A76CE,74FB9819-85FE-218A-0C0D-CE4B8F1F1F2D</processOrderString>
+</DataFlowDesign>
