@@ -2,6 +2,7 @@
 <Process class="oracle.dbtools.crest.model.design.process.Process" name="New Dealer" directorySegmentName="seg_0" id="6E0C7D58-D71E-CBA0-C18D-7DEB165A76CE">
 <createdBy>martin</createdBy>
 <createdTime>2017-10-19 16:31:46 UTC</createdTime>
+<notes>  &quot;pageType&quot;: &quot;form&quot;,&lt;br/&gt;   &quot;pageIcon&quot;: &quot;fa-forms&quot;,&lt;br/&gt;  &quot;formImplementation&quot;: &quot;formOnTable&quot;,&lt;br/&gt;  &quot;table&quot;: &quot;DEPT&quot;</notes>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <primary>false</primary>
 <batchMinimumTransactions>1000</batchMinimumTransactions>

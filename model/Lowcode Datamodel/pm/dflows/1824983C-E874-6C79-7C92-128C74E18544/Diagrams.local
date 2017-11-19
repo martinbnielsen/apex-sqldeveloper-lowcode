@@ -1,4 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="main_view" objectID="484CBAA3-20F3-79D6-11D7-3641E88944A5" name="Customer Relations Diagram" visible="false"/>
+   <object objectType="main_view" objectID="484CBAA3-20F3-79D6-11D7-3641E88944A5" name="Customer Relations Diagram" visible="true"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

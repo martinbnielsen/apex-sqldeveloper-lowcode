@@ -389,7 +389,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5">
+		<model_options objectid="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
@@ -429,7 +429,7 @@
 		</data_types_model_estimates>
 		<relational_model_estimates>
 			<relational_model_0_estimates>
-				<relational_model_name value="Car Dealer Example"/>
+				<relational_model_name value="Car Dealer Database"/>
 				<tables value="70"/>
 				<views value="70"/>
 				<foreign_keys value="70"/>

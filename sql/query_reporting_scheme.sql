@@ -23,6 +23,7 @@ where d.date_published = (select max(d2.date_published) from dmrs_designs d2 whe
 select *
 from dmrs_domains;
 
+-- Domain value ranges
 select d.design_name, date_published, da.*
 from dmrs_designs d
 join dmrs_domain_avt da on da.design_ovid = d.design_ovid
@@ -33,7 +34,7 @@ select *
 from DMRS_DIAGRAMS;
 
 -- Processes
-select d.design_name, date_published, published_by, de.diagram_name, de.diagram_name, p.process_id, p.parent_process_id, p.process_name, p.process_number,p.*
+select de.diagram_name, p.process_id, p.parent_process_id, p.process_name, p.process_number,p.*
 from dmrs_designs d
 join DMRS_DIAGRAMS de on DE.DESIGN_OVID = D.DESIGN_OVID
 join dmrs_processes p on p.diagram_id = de.model_id and p.diagram_ovid = de.model_ovid 

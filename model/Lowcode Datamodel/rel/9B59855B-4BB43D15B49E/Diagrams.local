@@ -1,4 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="780247A8-C73D-FEB1-A86C-620F94A43162" name="Reporting Scheme datamodel" visible="true"/>
+   <object objectType="main_view" objectID="780247A8-C73D-FEB1-A86C-620F94A43162" name="Reporting Scheme datamodel" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

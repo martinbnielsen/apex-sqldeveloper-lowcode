@@ -5,7 +5,6 @@
 <comment>Cars are very central to this solution. Each car i registered with at licence plate (reg_no). Cars are unique and relates to the physical cars which are going in and out of the dealerships.</comment>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -23,13 +22,25 @@
 <comment>The car registration number</comment>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_code" id="141E9886-6D98-660F-F4F8-08FB4561CDEA">
+<createdBy>martin</createdBy>
+<createdTime>2017-10-22 15:49:22 UTC</createdTime>
+<comment>What is the status of this car</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>059F087F-6232-AC5B-55A3-786C524A9EBF</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
