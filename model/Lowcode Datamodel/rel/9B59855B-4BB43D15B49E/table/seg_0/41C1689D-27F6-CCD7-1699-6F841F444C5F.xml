@@ -94,6 +94,20 @@
 <ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DESIGN_OVID" id="AD5393B0-FD6D-73CE-7B4D-7A80EC6CC2B8">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_PROCESSES</sourceObjSchema>
+<sourceObjName>DESIGN_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="TRANSFORMATION_TASK_ID" id="4759B5F0-CF0C-28F9-0419-5FEFBCCEF678">
 <sourceConnName>demo_orcl_datamodel</sourceConnName>
 <sourceObjSchema>DMRS_PROCESSES</sourceObjSchema>
@@ -365,20 +379,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESIGN_OVID" id="AD5393B0-FD6D-73CE-7B4D-7A80EC6CC2B8">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_PROCESSES</sourceObjSchema>
-<sourceObjName>DESIGN_OVID</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>36 BYTE</dataTypeSize>
-<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -4,7 +4,8 @@
 <createdTime>2017-10-12 15:42:51 UTC</createdTime>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,14 +19,75 @@
 <Attribute name="customer_name" id="562603A2-BC0F-81A9-0B91-98609CD32C3B">
 <createdBy>martin</createdBy>
 <createdTime>2017-10-12 15:46:10 UTC</createdTime>
+<comment>The name of the customer</comment>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="6C5C0481-5739-592C-8A52-E43D45FE6DF7">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:59:08 UTC</createdTime>
+<comment>The city where the customer lives</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car_preferences" id="B44E172B-9361-DB00-DAC2-B2B1B8ADC488">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:59:40 UTC</createdTime>
+<comment>What is the customer looking for when byuing a new car ?</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_no" id="2C61285D-BCE7-6900-627C-08EA0036B204">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 20:01:51 UTC</createdTime>
+<comment>The primary phone number of the customer</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E6708EB-8761-6883-67F5-F560698F5E0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="506A9BC4-693A-9DAA-2BCE-98C0BE294BAE">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 20:02:12 UTC</createdTime>
+<comment>e-Mail address of the customer. Used for sending out newsletters.</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CA66279-E4FA-CD44-4170-D913E6E4D708</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

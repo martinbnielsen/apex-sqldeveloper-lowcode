@@ -1,0 +1,121 @@
+{
+"application": {
+  "name": "Martin 2",
+  "appShortDescription": "",
+  "appDescription": "",
+  "schema": "MBNDATA",
+  "features": {
+    "accessControl": false,
+    "activityReporting": false,
+    "applicationSettings": false,
+    "configurationOptions": false,
+    "emailFramework": false,
+    "feedback": false,
+    "helpPages": false,
+    "notifications": false,
+    "themeSelection": false,
+    "timeZoneSupport": false,
+    "userProfiles": false
+    },
+  "appearance": {
+    "themeStyle": "Vita",
+    "navigation": "SIDE",
+    "icon": "app-icon-bar-line-chart",
+    "iconBackgroundClass": "app-color-1",
+    "iconColorHEX": "#309FDB"
+    },
+  "settings": {
+    "frameworkTablePrefix": "M2_",
+    "baseTablePrefix": "",
+    "primaryLanguage": "en",
+    "translations": "",
+    "authentication": "Application Express"
+    },
+  "pages": [
+    {
+      "page": "10",
+      "pageType": "blank",
+      "pageName": "Home",
+      "pageIcon": "fa-home",
+      "pageIsHomePage": true,
+      "help": ""
+    }
+    ,
+    {
+      "page": "20",
+      "pageType": "cards",
+      "pageName": "Cards",
+      "pageIcon": "fa-cards",
+      "table": "DEPT",
+      "titleColumn": "DEPTNO",
+      "descriptionColumn": "DNAME",
+      "additionalTextColumn": "",
+      "help": ""
+    }
+    ,
+    {
+      "page": "30",
+      "pageType": "interactiveGrid",
+      "pageName": "Editable grid",
+      "pageIcon": "fa-table-pointer",
+      "reportImplementation": "TABLE",
+      "interactiveGridIsEditable": "Y",
+      "table": "DEPT",
+      "help": ""
+    }
+    ,
+    {
+      "page": "40",
+      "pageType": "form",
+      "pageName": "Form page",
+      "pageIcon": "fa-forms",
+      "formImplementation": "formOnTable",
+      "table": "DEPT",
+      "help": ""
+    }
+    ,
+    {
+      "page": "50",
+      "pageType": "interactiveReport",
+      "pageName": "Interactve",
+      "pageIcon": "fa-table",
+      "reportImplementation": "TABLE",
+      "table": "DEPT",
+      "includeFormWithReport": false,
+      "help": ""
+    }
+    ,
+    {
+      "page": "60",
+      "pageType": "calendar",
+      "pageName": "Calendar",
+      "pageIcon": "fa-calendar-o",
+      "table": "DEMO_ORDERS",
+      "calendarDisplayColumn": "USER_NAME",
+      "calendarDateColumnStart": "ORDER_TIMESTAMP",
+      "calendarDateColumnEnd": "ORDER_TIMESTAMP",
+      "calendarShowTime": "N",
+      "help": ""
+    }
+    ],
+  "generalSettings": {
+    "learnAppDefaults": true,
+    "version": "Release 1.0",
+    "logging": true,
+    "debugging": true
+    },
+  "globalizationSettings": {
+    "documentDirection": "left-to-right",
+    "dateFormat": "DD-MON-YYYY",
+    "dateTimeFormat": "DD-MON-YYYY HH24:MI",
+    "timestampFormat": "DD-MON-YYYY HH24:MI",
+    "timestampTimeZoneFormat": "DD-MON-YYYY HH24:MI"
+    },
+  "securitySettings": {
+    "rejoinSessions": true,
+    "deepLinking": true,
+    "maximumSessionSeconds": "",
+    "maximumSessionIdleSeconds": ""
+    }
+  }
+}

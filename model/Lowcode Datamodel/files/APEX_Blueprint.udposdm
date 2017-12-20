@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<udp_library>
+	<udp_groups>
+		<group name="Features" id="71CF2F1B-06E0-5098-A47D-C6CAC0617E1F" />
+	</udp_groups>
+	<properties>
+		<property name="accessControl" dispalay_name="" type="Text" group_id="" default_value="true">
+		</property>
+	</properties>
+</udp_library>

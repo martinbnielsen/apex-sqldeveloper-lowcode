@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71B0331A-01F5-8E22-10CA-8212D15BA6C5" name="DEALERS">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<generatorID>A7C696D3-A4B0-9DDE-5118-20F90D5DA800</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEALERS_ID" id="7D7F3F41-3D71-604F-5E76-EE92628865A9">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DEALER_NAME" id="42C7F91B-1362-E128-772F-2B35544DDA9E">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<generatorID>2A221DAD-984B-97F3-D23E-0DC09609E203</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES" id="D1E164A9-5534-6698-13BF-C91C3AAF603C">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>Number of employees</comment>
+<commentInRDBMS>Number of employees</commentInRDBMS>
+<generatorID>9D3776EB-C5BA-BE5D-50A0-F7D55B79F13E</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9B95150C-4370-0950-1C54-205233650757</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="E24FE855-B1C3-CB0A-8483-E8A886C358E8">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>The address of the dealership</comment>
+<commentInRDBMS>The address of the dealership</commentInRDBMS>
+<generatorID>1E713861-E26D-29FF-ADA1-8D19BC6A1A54</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="7E906703-C2D2-D070-F16B-CA1758E28FD8">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="65ED5F31-B6B5-059E-E924-3D87CE20F2D1">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="61114274-1ACD-2B13-1CFE-3F729B8678C4">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="401789AC-E167-FA21-7EC1-E6BBE2459744">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>false</dataTypeSize>
+<ownDataTypeParameters>false,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67FB84E5-AB61-AA17-C48C-7B9340490131" name="DEALERS_PK">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7D7F3F41-3D71-604F-5E76-EE92628865A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

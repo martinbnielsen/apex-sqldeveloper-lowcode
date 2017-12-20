@@ -1,0 +1,64 @@
+{
+"application": {
+  "name": "Lowcode Datamodel",
+  "appShortDescription": "",
+  "appDescription": "",
+  "schema": "MBNDATA",
+  "features": {
+    "accessControl": true,
+    "activityReporting": true,
+    "applicationSettings": true,
+    "configurationOptions": true,
+    "emailFramework": true,
+    "feedback": true,
+    "helpPages": true,
+    "notifications": true,
+    "themeSelection": true,
+    "timeZoneSupport": true,
+    "userProfiles": true
+    },
+  "appearance": {
+    "themeStyle": "Vita - Red",
+    "navigation": "SIDE",
+    "icon": "app-icon-graphs",
+    "iconBackgroundClass": "app-color-7",
+    "iconColorHEX": "#5A68AD"
+    },
+  "settings": {
+    "frameworkTablePrefix": "LC_",
+    "baseTablePrefix": "",
+    "primaryLanguage": "EN",
+    "translations": "",
+    "authentication": "Application Express"
+    },
+  "pages": [
+    {
+      "page": "10",
+      "pageType": "blank",
+      "pageName": "Home",
+      "pageIcon": "fa-home",
+      "pageIsHomePage": true,
+      "help": ""
+    }
+    ],
+  "generalSettings": {
+    "learnAppDefaults": true,
+    "version": "Release 1.0",
+    "logging": true,
+    "debugging": true
+    },
+  "globalizationSettings": {
+    "documentDirection": "left-to-right",
+    "dateFormat": "DD-MM-YYYY",
+    "dateTimeFormat": "DD-MM-YYYY HH24:MI",
+    "timestampFormat": "DD-MM-YYYY HH24:MI",
+    "timestampTimeZoneFormat": "DD-MM-YYYY HH24:MI"
+    },
+  "securitySettings": {
+    "rejoinSessions": true,
+    "deepLinking": true,
+    "maximumSessionSeconds": "",
+    "maximumSessionIdleSeconds": ""
+    }
+  }
+}

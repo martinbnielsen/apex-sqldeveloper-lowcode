@@ -14,6 +14,11 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="111B10ED-E3EE-A1EE-9EEF-CB026600B4F0" otype="Note" vid="B9C1FDCD-93A7-EC59-8316-527B2D756C2C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="58" y="9" width="114" height="60"/>
+<comment>Demo Car model&lt;br/&gt;ER Model</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2B86C417-213B-4D3E-4284-EFE3F6D8D4B8" otype="Entity" vid="D7C005A8-CB59-4113-A127-7220D1F0F066">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="140" y="305" width="170" height="110"/>

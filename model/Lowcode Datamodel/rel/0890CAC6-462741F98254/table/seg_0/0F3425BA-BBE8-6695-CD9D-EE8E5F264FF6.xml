@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F3425BA-BBE8-6695-CD9D-EE8E5F264FF6" name="CUSTOMER_CARS">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERS_CUSTOMERS_ID" id="96C57B99-6576-F815-0588-02C106927C36">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C1CCDD7-1437-8D57-DADA-5532475AF9B1" referredColumn="96CC49AE-FBBB-997A-9447-51CDB7690E5D"/>
+</associations>
+</Column>
+<Column name="CARS_CARS_ID" id="73362565-8853-241E-C783-DCABE99CCC5E">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DBE1436-8841-806E-6131-E5375584AFC4" referredColumn="DBB77221-F160-8B3E-26F4-0B5D4C791BF6"/>
+</associations>
+</Column>
+<Column name="CREATED_BY" id="BE829016-8B36-785F-302E-F95A40DE558E">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="19163186-250D-6AED-08B5-E50E7E4B4B0A">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="415EC3B4-856D-3744-664B-710ADC7DF505">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="075CFE40-C7F4-40B4-E5BE-A78DCEEE77CA">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>false</dataTypeSize>
+<ownDataTypeParameters>false,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86524417-AFE8-F268-7179-1EEC57098FCC" name="CUSTOMER_CARS_PK">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C57B99-6576-F815-0588-02C106927C36"/>
+<colUsage columnID="73362565-8853-241E-C783-DCABE99CCC5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A7E7AB5-4CC3-63D3-A634-A7993DE98F51" name="CUSTOMER_CARS__IDX">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:14:20 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C57B99-6576-F815-0588-02C106927C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24F6A757-7D6C-653B-6CAC-66C16C22650E" name="CUSTOMER_CARS__IDXv1">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:14:20 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73362565-8853-241E-C783-DCABE99CCC5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3579F684-8FF8-D610-D95F-BBDF7BF08607" name="CUSTOMER_CARS_CUSTOMERS_FK">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<generatorID>83B9D5CF-2FB4-8BB7-1557-5CC26348C414</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C57B99-6576-F815-0588-02C106927C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECD34594-22D9-B041-DCC6-4736573CE24F" name="CUSTOMER_CARS_CARS_FK">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<generatorID>83B9D5CF-2FB4-8BB7-1557-5CC26348C414</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73362565-8853-241E-C783-DCABE99CCC5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

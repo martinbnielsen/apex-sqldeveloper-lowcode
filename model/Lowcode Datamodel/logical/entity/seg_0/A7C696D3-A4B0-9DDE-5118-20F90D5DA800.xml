@@ -4,8 +4,8 @@
 <createdTime>2017-10-12 15:42:45 UTC</createdTime>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,10 +21,9 @@
 <createdTime>2017-10-12 15:46:31 UTC</createdTime>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
@@ -36,13 +35,28 @@
 <comment>Number of employees</comment>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
-<item key="9EF6B5B6-2DAB-10D1-A3A8-E1D01F65D3A5" value="true"/>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>9B95150C-4370-0950-1C54-205233650757</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="1E713861-E26D-29FF-ADA1-8D19BC6A1A54">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:55:51 UTC</createdTime>
+<comment>The address of the dealership</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

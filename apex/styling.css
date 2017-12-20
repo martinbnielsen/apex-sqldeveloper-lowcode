@@ -1,0 +1,9 @@
+.lc-help-header {
+    font-weight: bold;
+     margin-top: 16px;   
+}
+
+.lc-help-body {
+    font-style: italic;
+    color: darkgrey;
+}

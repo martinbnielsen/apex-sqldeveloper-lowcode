@@ -52,6 +52,21 @@
 <ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PERSISTENCE_VERSION" id="ECC142E2-64FA-31DD-1E5D-AA96406FB9BE">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
+<sourceObjName>PERSISTENCE_VERSION</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DATE_PUBLISHED" id="E979910E-AC45-5D13-9788-EF6DF424A85F">
 <sourceConnName>demo_orcl_datamodel</sourceConnName>
 <sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
@@ -80,21 +95,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>80 BYTE</dataTypeSize>
 <ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PERSISTENCE_VERSION" id="ECC142E2-64FA-31DD-1E5D-AA96406FB9BE">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DESIGNS</sourceObjSchema>
-<sourceObjName>PERSISTENCE_VERSION</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="VERSION_COMMENTS" id="6E215A14-EF57-548C-9A05-85706077FECF">

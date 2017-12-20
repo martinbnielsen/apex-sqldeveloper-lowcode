@@ -140,6 +140,7 @@ create or replace PACKAGE BODY LC_TOOLS AS
         apex_json.write('pageIsHomePage',  true);
         apex_json.close_object;
     
+        -- Now create the pages from the process model
         for p in (select process_number, process_name, text, note 
                   from lc_processes  
                   where design_ovid = p_design_ovid

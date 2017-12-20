@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- File contains Custom Transformation scripts -->
+<custom_transformation_scripts>
+	<scr id="0BAA564F-AB5F-D776-2E4F-31FDB3047F69" name="Tables to lower case - Rhino" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t];
+ name = table.getName().toLowerCase();
+ table.setName(name);
+ columns = table.getElements();
+ size = table.getElementsCollection().size();
+ for (var i = 0; i < size; i++) {
+	column = columns[i];
+	cname = column.getName().toLowerCase();
+	column.setName(cname);
+ }
+ table.setDirty(true);
+ keys = table.getKeys();
+ for (var i = 0; i < keys.length; i++) {
+  key = keys[i];
+    if(!key.isFK()){
+     kname = key.getName().toLowerCase();
+     key.setName(kname);
+   }else{
+     kname = key.getFKAssociation().getName().toLowerCase();
+     key.getFKAssociation().setName(kname);
+     key.getFKAssociation().setDirty(true);
+   }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="B673F271-4836-DD48-15AC-487DDECCAF49" name="Tables to upper case - JRuby" object="relational" engine="JSR 223 JRuby Engine" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[tables =$model.getTableSet().toArray()
+for t in 0..tables.length-1
+ table = tables[t]
+ name = table.getName().upcase
+ table.setName(name)
+ columns = table.getElements()
+ size = table.getElementsCollection().size()-1
+ for i in 0..size
+	column = columns[i]
+	cname = column.getName().upcase
+	column.setName(cname)
+ end
+ keys = table.getKeys()
+ for i in 0..keys.length-1
+  key = keys[i]
+  kname = key.getName().upcase
+  key.setName(kname)
+ end
+end]]>
+		</script>
+	</scr>
+	<scr id="3E7C4F9E-9FCB-56C7-086F-F976F9A66384" name="Tables to upper case - JRuby - library usage" object="relational" engine="JSR 223 JRuby Engine" var="model" library="Jruby lib" method="tables_up" purpose="transformation" >
+		<script>
+			<![CDATA[def tables_up(model)
+tables = model.getTableSet().toArray()
+for t in 0..tables.length-1
+ table = tables[t]
+ name = table.getName().upcase
+ table.setName(name)
+ columns = table.getElements()
+ size = table.getElementsCollection().size()-1
+ for i in 0..size
+	column = columns[i]
+	cname = column.getName().upcase
+	column.setName(cname)
+ end
+ keys = table.getKeys()
+ for i in 0..keys.length-1
+  key = keys[i]
+  kname = key.getName().upcase
+  key.setName(kname)
+ end
+end
+return true
+end]]>
+		</script>
+	</scr>
+	<scr id="E60A5A28-BB9B-3787-10E7-259DF900B9E6" name="Table abbreviation to column" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t];
+ abbr = table.getAbbreviation()+"_";
+ if(!"_".equals(abbr)){
+     columns = table.getElements();
+     for (var i = 0; i < columns.length; i++) {
+        column = columns[i];
+        cname = column.getName();
+        if(!cname.startsWith(abbr)){
+         column.setName(abbr+cname);
+        }
+     }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="9BE4E26C-36D8-A92C-ADEA-F183327DC239" name="Remove Table abbr from column" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t];
+ abbr = table.getAbbreviation()+"_";
+ count = table.getAbbreviation().length()+1;
+ if(!"_".equals(abbr)){
+     columns = table.getElements();
+     for (var i = 0; i < columns.length; i++) {
+        column = columns[i];
+        cname = column.getName();
+        if(cname.startsWith(abbr)){
+         column.setName(cname.substring(count));
+         table.setDirty(true);
+        }
+     }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="5A8A151A-13FD-4B0A-E233-E3C5126BA02C" name="Tables to upper case - Rhino" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t];
+ name = table.getName().toUpperCase();
+ table.setName(name);
+ columns = table.getElements();
+ size = table.getElementsCollection().size();
+ for (var i = 0; i < size; i++) {
+	column = columns[i];
+	cname = column.getName().toUpperCase();
+	column.setName(cname);
+ }
+ table.setDirty(true);
+ keys = table.getKeys();
+ for (var i = 0; i < keys.length; i++) {
+  key = keys[i];
+    if(!key.isFK()){
+     kname = key.getName().toUpperCase();
+     key.setName(kname);
+   }else{
+     kname = key.getFKAssociation().getName().toUpperCase();
+     key.getFKAssociation().setName(kname);
+     key.getFKAssociation().setDirty(true);
+   }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="0528C35C-F29B-E7BB-57AC-37BA2780A98D" name="Table template - uses column name" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// columns are found by column name
+// allowing reuse of already existing columns
+// dynamic property ctemplateID is set afterwards - will keep connection to template
+// column even if the name of column is changed
+var t_name = "table_template";
+var p_name = "ctemplateID";
+template = model.getTableSet().getByName(t_name);
+if(template!=null){
+    tcolumns = template.getElements();
+    tables = model.getTableSet().toArray();
+    for (var t = 0; t<tables.length;t++){
+     table = tables[t];
+    // compare name ignoring the case
+     if(!table.getName().equalsIgnoreCase(t_name)){
+         for (var i = 0; i < tcolumns.length; i++) {
+            column = tcolumns[i];
+            col = table.getElementByName(column.getName());
+            if(col==null){
+             col = table.getColumnByProperty(p_name,column.getObjectID());
+            }
+            if(col==null){
+             col = table.createColumn();
+            }
+            column.copy(col);
+            //set property after copy otherwise it'll be cleared by copy
+            col.setProperty(p_name,column.getObjectID());
+            table.setDirty(true);
+         }
+     }
+    }
+}]]>
+		</script>
+	</scr>
+	<scr id="6279C414-90DD-A52B-4CEB-8D49AB31DC10" name="Copy Comments to Comments in RDBMS" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[max_length = 4000;
+function copyComments(object){
+ if(object.getCommentInRDBMS().equals("")){
+   if(!object.getComment().equals("")){
+     if(object.getComment().length()>max_length){
+       object.setCommentInRDBMS(object.getComment().substring(0, max_length));
+     }else{
+       object.setCommentInRDBMS(object.getComment());
+     }
+     object.setDirty(true);
+   }
+ }
+}
+
+tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t]
+ copyComments(table);
+ columns = table.getElements();
+ size = table.getElementsCollection().size();
+ for (var i = 0; i < columns.length; i++) {
+	column = columns[i];
+	copyComments(column);
+ }
+ keys = table.getKeys();
+ for (var i = 0; i < keys.length; i++) {
+   key = keys[i];
+   if(!key.isFK()){
+     copyComments(key);
+   }else{
+     copyComments(key.getFKAssociation());
+   }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="7C4EDFC0-26EA-859C-DBD9-AC9345DEAF98" name="Create index on FK" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[function getIndex(tab,cols){
+ keys = tab.getKeys();
+ for (var i = 0; i < keys.length; i++) {
+  index = keys[i];
+  if(!(index.isPK() || index.isUnique()) && !index.isFK() && index.isIndexForColumns(cols)){
+     return index
+   }
+ }
+ return null;
+}
+
+tables = model.getTableSet().toArray();
+for (var t = 0; t<tables.length;t++){
+ table = tables[t];
+ indexes = table.getKeys();
+ for (var i = 0; i < indexes.length; i++) {
+    index = indexes[i];
+    if(index.isFK()){
+     columns = index.getColumns();
+     if(columns.length>0){
+       newIndex = getIndex(table,columns);
+       if(newIndex==null){
+         newIndex = table.createIndex()
+         table.setDirty(true);
+         for (var k = 0; k < columns.length; k++){
+           newIndex.add(columns[k]);
+         }
+       }
+     }
+   }
+ }
+}]]>
+		</script>
+	</scr>
+	<scr id="1726EC74-A64B-0C0F-83DB-2A4BEF0D3DCA" name="Columns order" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// sorts table columns as asked here https://forums.oracle.com/forums/thread.jspa?threadID=2508315&tstart=0
+// "...first the pks columns, after them fk columns and after the not null columns"
+function addPKcolumns(list,table){
+	pk = table.getPK();
+	if(pk!=null){
+		pcols = pk.getColumns();
+		for(var i = 0;i<pcols.length;i++){
+			col = pcols[i];
+			//in fact don't need this check, because PK columns are processed first
+			if(!list.contains(col)){
+				list.add(col);
+			}
+		}
+	}
+}
+
+function addFKcolumns(list,fkeys){
+	for(var k=0;k<fkeys.length;k++){
+		fcols = fkeys[k].getColumns();
+		for(var i = 0;i<fcols.length;i++){
+		  col = fcols[i];
+		  if(!list.contains(col)){
+			list.add(col);
+		  }
+		}
+	}
+}
+//adds mandatory or oprional columns to list depending on mand parameter
+function addMandatoryOptColumns(list,cols, mand){
+	for(var i = 0;i<cols.length;i++){
+		col = cols[i];
+		if(col.isMandatory() == mand && !list.contains(col)){
+			list.add(col);
+		}
+	}
+}
+
+tables = model.getTableSet().toArray();
+list = new java.util.ArrayList();
+for (var t = 0; t<tables.length;t++){
+	list.clear();
+	table = tables[t];
+	cols = table.getElements();
+	// add PK columns to list
+	addPKcolumns(list,table);
+	// add FK columns to list
+	addFKcolumns(list,table.getFKAssociations());
+	//add mandatory columns
+	addMandatoryOptColumns(list,cols,true);
+	//add optional columns
+	addMandatoryOptColumns(list,cols,false);
+	//use list to reorder columns
+	ord_cols = list.toArray();
+	for(var n = 0;n<ord_cols.length;n++){
+		table.moveToIndex(ord_cols[n],n);
+	}
+	//prevent reordering from enginnering, can be changed with UI
+	table.setAllowColumnReorder(false);
+	table.setDirty(true);
+}]]>
+		</script>
+	</scr>
+	<scr id="F54B1A9C-F951-EB88-E905-5599533569B1" name="Create subview from tables in serch result " object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[objs = model.getLastSearchResult().toArray();
+var dp;
+var sv;
+//create subview and add tables to it
+for(var i = 0;i<objs.length;i++){
+	obj = objs[i];
+	// use "Entity" for entities and logical model
+	if(obj.getObjectTypeName().equals("Table")){
+		if(dp==null){
+			dp = obj.getDesignPart();
+			sv = dp.createDesignPartSubView();
+			// uncomment next line if want to set name
+		     //sv.setName("Name");
+		     sv.getPlaceHolder().setVisible(true);
+		}
+		sv.addViewFor(obj);
+	}
+}
+if(dp!=null){
+ //add foreign keys if you want to
+ for(var i = 0;i<objs.length;i++){
+	obj = objs[i];
+	// use "Entity" for entities and logical model
+	if(obj.getObjectTypeName().equals("Table")){
+		tv = obj.getFirstViewForDPV(sv);
+		if(tv!=null){
+			//for entities and logical model use 
+			//tv.addTVRelations(); 
+			tv.addTVFKRelations();
+		}
+	}
+ }
+ //add Arcs if you want to
+ for(var i = 0;i<objs.length;i++){
+	obj = objs[i];
+	if(obj.getObjectTypeName().equals("Table")){
+		tv = obj.getFirstViewForDPV(sv);
+		if(tv!=null){
+			tv.addArcs();
+		}
+	}
+ }
+ //arrange diagram
+ sv.rearrangeNewDiagram();
+}]]>
+		</script>
+	</scr>
+	<scr id="EF64BEDD-B648-C41B-60C7-B9EA938E0A3C" name="Remove template columns and related attributes" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[/* removes the columns created with "Table template..." script, also removes related attributes
+*  from logical model
+*  more details here http://www.thatjeffsmith.com/archive/2015/03/adding-common-columns-to-tables-via-templates-and-transformation-scripts/
+*/
+var t_name = "table_template";
+var p_name = "ctemplateID";
+template = model.getTableSet().getByName(t_name);
+if(template!=null){
+    tcolumns = template.getElements();
+    tables = model.getTableSet().toArray();
+    for (var t = 0; t<tables.length;t++){
+     table = tables[t];
+    // compare name ignoring the case
+     if(!table.getName().equalsIgnoreCase(t_name)){
+         for (var i = 0; i < tcolumns.length; i++) {
+            column = tcolumns[i];
+            col = table.getColumnByProperty(p_name,column.getObjectID());
+            if(col!=null){
+            	attr = col.getEngAttribute();
+            	if(attr!=null){
+            		ent = attr.getEntity();
+            		attr.remove();
+            		if(ent!=null){
+            			ent.setDirty(true);
+            		}
+            	}
+             col.remove();
+             table.setDirty(true);
+            }
+         }
+     }
+    }
+}]]>
+		</script>
+	</scr>
+	<scr id="CEE13BC2-892C-90B0-B68F-B8001E2FC8B6" name="MBNDATA: Add Audit Columns" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// import actual java classes for use later
+
+// variable to keep a status message for later
+var msg="";
+/*
+  Delete function takes in the table and name of the column to delete
+*/
+ 
+function deleteColumn(table,colName){
+    columns = table.getElements();
+  
+ // iterate columns looking for the one to remove
+    for (var i = 0; i < columns.length; i++) {
+ if ( columns[i].getName().toUpperCase() == colName ){
+   columns[i].remove();
+   msg += "Deleted from "+ table.getName() + " : " + colName + "\n";
+        }
+  }
+}
+/*
+  checkOrCreate function takes in the table and name of the column to add. This checks for the existence of the column before addin
+*/
+ 
+function checkOrCreate(table,colName,typeName,typeSize, mandatory){
+ hasCol = false;
+ columns = table.getElements();
+  
+ for (var i = 0; i < columns.length; i++) {
+ column = columns[i];
+ if ( column.getName().toUpperCase() == colName ){
+   hasCol=true;
+ }
+ }
+  // if the column is not present add it
+  if (! hasCol ) {
+      newCol = table.createColumn();
+      newCol.setName(colName);
+      newCol.setUse(1);
+      newCol.setMandatory(mandatory);
+   // lookup the logical datatype based on the name
+   type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName(typeName);
+      newCol.setLogicalDatatype(type);
+      if (typeSize != null  ) {
+        newCol.setDataTypeParameter("size",typeSize);
+      }
+      msg += "Added to "+ table.getName() + " : " + colName+ "\n";
+ } 
+}
+ 
+// grab all the table in the model as an array
+tables = model.getTableSet().toArray();
+ 
+for (var t = 0; t < tables.length;t++){
+
+  tableName = tables[t].getName();
+
+ // remove all these from the table
+ deleteColumn(tables[t],"CREATED_BY");
+ deleteColumn(tables[t],"CREATION_DATE");
+ deleteColumn(tables[t],"LAST_UPDATED_BY");
+ deleteColumn(tables[t],"LAST_UPDATE_DATE");
+  
+ // add them back with the specified datatypes
+ checkOrCreate(tables[t],"CREATED_BY",   "NUMERIC",15, true);
+ checkOrCreate(tables[t],"CREATION_DATE",   "DATE", null, true);
+ checkOrCreate(tables[t],"LAST_UPDATED_BY",   "NUMERIC",15, false);
+ checkOrCreate(tables[t],"LAST_UPDATE_DATE",   "DATE", false);
+}]]>
+		</script>
+	</scr>
+	<scr id="6617CA32-EE03-1526-9F88-A09BD7A3529A" name="MBNDATA: Create Audit triggers" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// Create table triggers
+
+outFile = new java.io.FileWriter("/Users/martin/DevAPEX/apex-sqldeveloper-lowcode/ddl/create_audit_triggers.sql");
+out = new java.io.PrintWriter(outFile);
+out.print("-- -------------------------------------------------");
+out.println();
+out.print("-- Title  : Create audit triggers");
+out.println();
+out.print("-- Created: " + new Date() );
+out.println();
+out.print("-- -------------------------------------------------");
+out.println();
+out.println();
+
+tables = model.getTableSet().toArray();
+
+for (var t = 0; t<tables.length;t++)
+{
+  table = tables[t];
+  tableName = table.getName();
+
+  if (table.getName().length() > 26)
+  {
+    trigger_name = table.getName().substring(0,26) + "_"
+  }
+  else
+  {
+    trigger_name = table.getName() + "_"
+  }
+
+  out.println();
+  out.print("-- Create before insert row trigger: " + trigger_name + "biur_aud");
+  out.println();
+  out.print("create or replace trigger " + trigger_name + "BIUR_AUD");
+  out.println();
+  out.print("  before insert or update on " + tableName);
+  out.println();
+  out.print("    for each row");
+  out.println();
+  out.println("begin");
+  out.println("if inserting then");
+  out.println("  :new.created_by := -1;");
+  out.println("  :new.creation_date := SYSDATE;");
+  out.println("else");
+  out.println("  :new.last_updated_by := -1;");
+  out.println("  :new.last_update_date := SYSDATE;");  
+  out.println("end if;");  
+  out.println("end;");  
+  out.println("/");  
+}
+
+out.close();]]>
+		</script>
+	</scr>
+	<scr id="CB35E416-0F95-3CA6-2138-7475A1E2196F" name="MBNDATA: Create Sequences" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// Create table triggers
+
+outFile = new java.io.FileWriter("/Users/martin/DevAPEX/apex-sqldeveloper-lowcode/ddl/create_sequences.sql");
+out = new java.io.PrintWriter(outFile);
+out.print("-- -------------------------------------------------");
+out.println();
+out.print("-- Title  : Sequences");
+out.println();
+out.print("-- Created: " + new Date() );
+out.println();
+out.print("-- -------------------------------------------------");
+out.println();
+out.println();
+
+tables = model.getTableSet().toArray();
+
+for (var t = 0; t<tables.length;t++)
+{
+  table = tables[t];
+  tableName = table.getName();
+
+  out.println("CREATE SEQUENCE " + tableName + "_S START WITH 1 INCREMENT BY 1 NOCACHE;");
+}
+
+out.close();]]>
+		</script>
+	</scr>
+	<scr id="4DEB4A77-4567-7EDF-7602-5266988BB55A" name="MBNDATA: Create PK triggers" object="relational" engine="Oracle Nashorn" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[// Create table triggers
+
+outFile = new java.io.FileWriter("/Users/martin/DevAPEX/apex-sqldeveloper-lowcode/ddl/create_pk_triggers.sql");
+out = new java.io.PrintWriter(outFile);
+out.print("-- -------------------------------------------------");
+out.println();
+out.print("-- Title  : Create PK triggers");
+out.println();
+out.print("-- Created: " + new Date() );
+out.println();
+out.print("-- -------------------------------------------------");
+out.println();
+out.println();
+
+tables = model.getTableSet().toArray();
+
+for (var t = 0; t<tables.length;t++)
+{
+  table = tables[t];
+  tableName = table.getName();
+  columns = table.getElements();
+  pkname = columns[0].getName();
+  
+  if (table.getName().length() > 26)
+  {
+    trigger_name = table.getName().substring(0,26) + "_"
+  }
+  else
+  {
+    trigger_name = table.getName() + "_"
+  }
+
+  out.println();
+  out.print("-- Create before insert row trigger: " + trigger_name + "bir_pk");
+  out.println();
+  out.print("create or replace trigger " + trigger_name + "BIR_PK");
+  out.println();
+  out.print("  before insert on " + tableName);
+  out.println();
+  out.print("    for each row");
+  out.println();
+  out.println("begin");
+  out.println("if :new." + pkname + " IS NULL then");
+  out.println("  :new." + pkname + " := " + tableName + "_S.NEXTVAL;");
+  out.println("end if;");  
+  out.println("end;");  
+  out.println("/");  
+}
+
+out.close();]]>
+		</script>
+	</scr>
+</custom_transformation_scripts>

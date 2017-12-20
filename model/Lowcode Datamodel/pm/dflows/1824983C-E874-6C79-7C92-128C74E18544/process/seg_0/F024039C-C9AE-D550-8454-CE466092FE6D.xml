@@ -2,7 +2,7 @@
 <Process class="oracle.dbtools.crest.model.design.process.Process" name="Register Purchase" directorySegmentName="seg_0" id="F024039C-C9AE-D550-8454-CE466092FE6D">
 <createdBy>martin</createdBy>
 <createdTime>2017-10-19 16:34:53 UTC</createdTime>
-<notes>  &quot;pageType&quot;: &quot;form&quot;,&lt;br/&gt;   &quot;pageIcon&quot;: &quot;fa-forms&quot;,&lt;br/&gt;  &quot;formImplementation&quot;: &quot;formOnTable&quot;,&lt;br/&gt;  &quot;table&quot;: &quot;DEPT&quot;</notes>
+<notes> &quot;pageType&quot;: &quot;interactiveGrid&quot;,&lt;br/&gt; &quot;pageIcon&quot;: &quot;fa-table-pointer&quot;,&lt;br/&gt; &quot;reportImplementation&quot;: &quot;TABLE&quot;,&lt;br/&gt; &quot;interactiveGridIsEditable&quot;: true,&lt;br/&gt; &quot;table&quot;: &quot;CUSTOMER_CARS&quot;</notes>
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <primary>false</primary>
 <batchMinimumTransactions>1000</batchMinimumTransactions>

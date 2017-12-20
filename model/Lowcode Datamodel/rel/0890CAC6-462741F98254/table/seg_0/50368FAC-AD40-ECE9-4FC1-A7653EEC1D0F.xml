@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50368FAC-AD40-ECE9-4FC1-A7653EEC1D0F" name="CUSTOMERS">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<generatorID>2B86C417-213B-4D3E-4284-EFE3F6D8D4B8</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERS_ID" id="96CC49AE-FBBB-997A-9447-51CDB7690E5D">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CUSTOMER_NAME" id="DF4605CC-9755-941E-38E0-A7CAC6C8BEBA">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>The name of the customer</comment>
+<commentInRDBMS>The name of the customer</commentInRDBMS>
+<generatorID>562603A2-BC0F-81A9-0B91-98609CD32C3B</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="91367FF4-BA43-221E-8BCD-7D1A0826EAD3">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>The city where the customer lives</comment>
+<commentInRDBMS>The city where the customer lives</commentInRDBMS>
+<generatorID>6C5C0481-5739-592C-8A52-E43D45FE6DF7</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_PREFERENCES" id="DD905E5C-FBF5-F489-A0E0-E783F60AB0BC">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>What is the customer looking for when byuing a new car ?</comment>
+<commentInRDBMS>What is the customer looking for when byuing a new car ?</commentInRDBMS>
+<generatorID>B44E172B-9361-DB00-DAC2-B2B1B8ADC488</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF9E32DF-0E1A-648B-F911-F913C0AEB13C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NO" id="83472C3D-5A0C-34E0-286D-31D685C359BD">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>The primary phone number of the customer</comment>
+<commentInRDBMS>The primary phone number of the customer</commentInRDBMS>
+<generatorID>2C61285D-BCE7-6900-627C-08EA0036B204</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E6708EB-8761-6883-67F5-F560698F5E0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="C3225881-687A-EEFF-27B7-7D6DBCC5B8F9">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<comment>e-Mail address of the customer. Used for sending out newsletters.</comment>
+<commentInRDBMS>e-Mail address of the customer. Used for sending out newsletters.</commentInRDBMS>
+<generatorID>506A9BC4-693A-9DAA-2BCE-98C0BE294BAE</generatorID>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CA66279-E4FA-CD44-4170-D913E6E4D708</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="5577C690-2123-C6B9-2626-8CD77800BF65">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="65385C4C-9309-B8AE-7747-721DD8DC54B1">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="86C7FA14-C99D-8A66-2E07-72BBFD598DBF">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="811417F1-AB47-676E-DF77-4E04EC5D39B8">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:15:31 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>false</dataTypeSize>
+<ownDataTypeParameters>false,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84CFF578-CD63-6CCF-AA50-467C70FB781C" name="CUSTOMERS_PK">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-22 15:12:15 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="96CC49AE-FBBB-997A-9447-51CDB7690E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

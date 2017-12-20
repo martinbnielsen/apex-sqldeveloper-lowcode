@@ -52,21 +52,6 @@
 <ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SYNONYMS" id="49E43264-51B7-FB1A-E779-60FA3E926E7C">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
-<sourceObjName>SYNONYMS</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000 BYTE</dataTypeSize>
-<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="LOGICAL_TYPE_ID" id="3903B8B9-1311-4017-9BDA-8BEF58EEA46C">
 <sourceConnName>demo_orcl_datamodel</sourceConnName>
 <sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
@@ -93,6 +78,77 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>36 BYTE</dataTypeSize>
 <ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LT_NAME" id="1A5DEE2C-DE44-58B2-7193-485ED86BCEE7">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
+<sourceObjName>LT_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_ID" id="FF6A048A-22B1-CC3A-03F9-FA38D8403E95">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
+<sourceObjName>DESIGN_ID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_OVID" id="4FAE6E66-7F7B-22B6-3B01-27BD4AABA03A">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
+<sourceObjName>DESIGN_OVID</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESIGN_NAME" id="C37EC7F6-6A42-B7C5-66C2-AE047CB0336C">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
+<sourceObjName>DESIGN_NAME</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYNONYMS" id="49E43264-51B7-FB1A-E779-60FA3E926E7C">
+<sourceConnName>demo_orcl_datamodel</sourceConnName>
+<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
+<sourceObjName>SYNONYMS</sourceObjName>
+<createdBy>martin</createdBy>
+<createdTime>2017-10-15 11:52:30 UTC</createdTime>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="T_SIZE" id="45EEFF1F-E041-3716-C332-5B48C408DE0C">
@@ -150,62 +206,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>60 BYTE</dataTypeSize>
 <ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LT_NAME" id="1A5DEE2C-DE44-58B2-7193-485ED86BCEE7">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
-<sourceObjName>LT_NAME</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256 BYTE</dataTypeSize>
-<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESIGN_ID" id="FF6A048A-22B1-CC3A-03F9-FA38D8403E95">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
-<sourceObjName>DESIGN_ID</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>70 BYTE</dataTypeSize>
-<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESIGN_OVID" id="4FAE6E66-7F7B-22B6-3B01-27BD4AABA03A">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
-<sourceObjName>DESIGN_OVID</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>36 BYTE</dataTypeSize>
-<ownDataTypeParameters>36 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESIGN_NAME" id="C37EC7F6-6A42-B7C5-66C2-AE047CB0336C">
-<sourceConnName>demo_orcl_datamodel</sourceConnName>
-<sourceObjSchema>DMRS_DOMAINS</sourceObjSchema>
-<sourceObjName>DESIGN_NAME</sourceObjName>
-<createdBy>martin</createdBy>
-<createdTime>2017-10-15 11:52:30 UTC</createdTime>
-<ownerDesignName>Lowcode Datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256 BYTE</dataTypeSize>
-<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DEFAULT_VALUE" id="39DE1BBF-E3EA-7590-A7EA-A8F28F049776">

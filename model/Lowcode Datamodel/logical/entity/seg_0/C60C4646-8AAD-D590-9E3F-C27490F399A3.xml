@@ -6,6 +6,7 @@
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,6 +24,7 @@
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,10 +39,56 @@
 <ownerDesignName>Lowcode Datamodel</ownerDesignName>
 <engineerTo>
 <item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>059F087F-6232-AC5B-55A3-786C524A9EBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="make" id="DE6E2F18-ED20-EDA3-C017-D6BCC3503EAD">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:56:52 UTC</createdTime>
+<comment>The make of the car.Ex. BMW, Mercedes...</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model" id="4738AD93-7964-F126-4F3B-3CE395D1ED2B">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:57:22 UTC</createdTime>
+<comment>Model of the car. Ex. 330D, 520i...</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C4CB91B-7DDC-05C5-727F-9470063CA46F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_date" id="8829C137-5CE4-827D-0EDD-271F6A5BADC3">
+<createdBy>martin</createdBy>
+<createdTime>2017-11-20 19:57:51 UTC</createdTime>
+<comment>The first registration date of the car</comment>
+<ownerDesignName>Lowcode Datamodel</ownerDesignName>
+<engineerTo>
+<item key="9B59855B-6AD7-B82C-992A-4BB43D15B49E" value="true"/>
+<item key="8DE6D1B0-8A2B-642A-8BD7-196B9AB5CBEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>05C53E9C-72B1-724C-D388-3A88C3B5973E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
