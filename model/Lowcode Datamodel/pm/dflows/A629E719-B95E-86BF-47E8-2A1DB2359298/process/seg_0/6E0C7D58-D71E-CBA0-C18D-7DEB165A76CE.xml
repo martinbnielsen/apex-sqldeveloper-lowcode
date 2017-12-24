@@ -12,7 +12,7 @@
 <frequencyTimes>0</frequencyTimes>
 <interactiveLongestResponseTime>5</interactiveLongestResponseTime>
 <interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
-<mode>Unknown</mode>
+<mode>Interactive</mode>
 <priority>Low</priority>
 <peakPeriodsString>000000000000000000000000</peakPeriodsString>
 </Process>

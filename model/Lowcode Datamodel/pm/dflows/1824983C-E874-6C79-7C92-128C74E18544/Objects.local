@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="F024039C-C9AE-D550-8454-CE466092FE6D" name="Register Purchase" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="1824983C-E874-6C79-7C92-128C74E18544" propertySourceId="" propertyTargetId=""/>
    <object objectType="Process" objectID="0E3B8E3C-9E84-08E4-C615-6A3C393B0DF7" name="Register Customers" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="1824983C-E874-6C79-7C92-128C74E18544" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Process" objectID="F024039C-C9AE-D550-8454-CE466092FE6D" name="Register Purchase" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Process" propertyParentId="1824983C-E874-6C79-7C92-128C74E18544" propertySourceId="" propertyTargetId=""/>
    <object objectType="Flow" objectID="6DF49C4C-2A5F-E32F-3DF6-FAB2685CE2F3" name="Flow_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Flow" propertyParentId="1824983C-E874-6C79-7C92-128C74E18544" propertySourceId="9D54B563-AE9D-2276-19E4-A64D09AB0E91" propertyTargetId="0E3B8E3C-9E84-08E4-C615-6A3C393B0DF7"/>
    <object objectType="Flow" objectID="7283F210-47D5-B0E5-07D3-ACCF72F7A930" name="Flow_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Flow" propertyParentId="1824983C-E874-6C79-7C92-128C74E18544" propertySourceId="9D54B563-AE9D-2276-19E4-A64D09AB0E91" propertyTargetId="F024039C-C9AE-D550-8454-CE466092FE6D"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

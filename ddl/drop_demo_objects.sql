@@ -1,4 +1,5 @@
 -- Demo cleanup scripts
+-- Drops all demo objects
 drop table dealer_customers;
 drop table customer_cars;
 drop table customers;

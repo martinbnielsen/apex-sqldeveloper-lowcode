@@ -42,6 +42,7 @@
 <connectors>
 <Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="724EE73B-278E-9331-F3B4-3F29DD1AA433" otype="Flow" vid_source="FBA27909-235D-EB67-4186-EE1B6EF5A08A" vid_target="ABE5C950-7D2A-D440-03DE-7C912442C9C8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="855" y="245"/>
@@ -50,6 +51,7 @@
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="763864A7-0646-A79F-8137-990465978FB3" otype="Flow" vid_source="0EF836BC-6B39-FABA-648C-E53C8628DC9E" vid_target="48A71C38-94FE-8C49-1726-CF5C7B657C0D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="148" y="357"/>
@@ -58,6 +60,7 @@
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.process.TVFlow" oid="8C38EB38-809C-DAF9-DD21-A59B81886B2B" otype="Flow" vid_source="48A71C38-94FE-8C49-1726-CF5C7B657C0D" vid_target="ABE5C950-7D2A-D440-03DE-7C912442C9C8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="387" y="207"/>
